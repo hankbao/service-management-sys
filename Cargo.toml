@@ -8,7 +8,7 @@ repository = "https://github.com/hankbao/service-management-sys"
 homepage = "https://lib.rs/crates/service-management-sys"
 documentation = "https://docs.rs/service-management-sys"
 readme = "README.md"
-keywords = ["ffi", "macOS", "ServiceManagement.framework", "SMJobBless"]
+keywords = ["ffi", "macOS", "launchd", "SMJobBless"]
 categories = ["os::macos-apis", "external-ffi-bindings"]
 edition = "2021"
 
