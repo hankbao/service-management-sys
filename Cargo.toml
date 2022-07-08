@@ -1,0 +1,20 @@
+[package]
+name = "service-management-sys"
+version = "0.1.0"
+authors = ["Hank Bao <hankbao84@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Apple `ServiceManagement.framework` low-level FFI bindings"
+repository = "https://github.com/hankbao/service-management-sys"
+homepage = "https://lib.rs/crates/service-management-sys"
+documentation = "https://docs.rs/service-management-sys"
+readme = "README.md"
+keywords = ["ffi", "macOS", "ServiceManagement.framework", "SMJobBless"]
+categories = ["os::macos-apis", "external-ffi-bindings"]
+edition = "2021"
+
+[dependencies]
+core-foundation-sys = "0.8"
+security-framework-sys = "2.6"
+
+[package.metadata.docs.rs]
+targets = ["aarch64-apple-darwin", "x86_64-apple-darwin"]

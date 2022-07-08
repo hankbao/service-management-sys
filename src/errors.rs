@@ -1,0 +1,9 @@
+pub const kSMErrorInternalFailure: u32 = 2;
+pub const kSMErrorInvalidSignature: u32 = 3;
+pub const kSMErrorAuthorizationFailure: u32 = 4;
+pub const kSMErrorToolNotValid: u32 = 5;
+pub const kSMErrorJobNotFound: u32 = 6;
+pub const kSMErrorServiceUnavailable: u32 = 7;
+pub const kSMErrorJobPlistNotFound: u32 = 8;
+pub const kSMErrorJobMustBeEnabled: u32 = 9;
+pub const kSMErrorInvalidPlist: u32 = 10;
